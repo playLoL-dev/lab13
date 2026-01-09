@@ -45,5 +45,5 @@ void showImage(const bool image[][M]){
         }
         cout << "|" << endl;
     }
-    cout << string(72,'-') << endl;
+    cout << string(72,'-') << endl; 
 }
