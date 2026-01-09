@@ -35,7 +35,7 @@ void updateImage(bool image[][M],int s,int x,int y){
 void showImage(const bool image[][M]){
     cout << string(72,'-') << endl;
     for(int i = 0; i < N; i++){
-        cout << "|";
+     cout << "|";
         for(int j = 0; j < M; j++){
             if(image[i][j]){
                 cout << "*";
@@ -43,7 +43,7 @@ void showImage(const bool image[][M]){
                 cout << " ";
             }
         }
-        cout << "|" << endl;
+     cout << "|" << endl;
     }
-    cout << string(72,'-') << endl; 
+    cout << string(72,'-') << endl;
 }
